@@ -69,6 +69,6 @@ if __name__ == "__main__":
     manager.list_tasks()
     manager.mark_task_completed(1)
     manager.list_tasks()
-    manager.add_task("High impact bugfix", "2024-08-20", priority="high")
-    manager.add_task("Refactor module", "2024-08-25", priority="low")
-    manager.list_tasks()
+
+    print("Finished")
+
